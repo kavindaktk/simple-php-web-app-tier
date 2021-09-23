@@ -38,6 +38,12 @@ function test(inputVal){
       <input type="text" id="MyPhrase"  name="MyPhrase"> 
  
 	<button onclick="test()">Save Data</button>
+	
+	<?PHP
+	
+	echo "This is test content generated through PHP code!"
+	
+	?>
 
 
 </body>
